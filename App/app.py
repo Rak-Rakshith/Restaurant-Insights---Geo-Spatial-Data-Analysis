@@ -9,7 +9,7 @@ st.set_page_config(page_title="Restaurant Analysis", layout="wide")
 st.title("🍽️ Restaurant Data Analysis")
 
 # Load Data
-df = pd.read_csv("cleaned_restaurant_data.csv")
+df = pd.read_csv("App/cleaned_restaurant_data.csv")
 
 # ---------------- SIDEBAR FILTERS ----------------
 st.sidebar.header("Filters")
